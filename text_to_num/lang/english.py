@@ -34,8 +34,12 @@ from .base import Language
 MULTIPLIERS = {
     "thousand": 1_000,
     "thousands": 1_000,
+    "lac" : 1_000_00,
+    "lacs" : 1_000_00,
     "million": 1_000_000,
     "millions": 1_000_000,
+    "crore" : 1_000_000_0,
+    "crores" : 1_000_000_0,
     "billion": 1_000_000_000,
     "billions": 1_000_000_000,
     "trillion": 1_000_000_000_000,
